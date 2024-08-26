@@ -26,3 +26,51 @@ Backend: Express.js, Node.js,
 Database: MongoDB, 
 
 Real-Time Communication: WebSocket
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Setup and Run Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+``` 
+
+Navigate to the project directory:
+
+```bash
+cd your-repo-name
+```
+
+Install frontend dependencies:
+
+```bash
+cd client
+npm install
+```
+
+Install backend dependencies:
+
+```bash
+cd ../server
+npm install
+```
+
+### 2. Run the application:
+
+Start the backend server:
+
+```bash
+cd server
+npm start
+```
+
+Start the frontend development server:
+
+```bash
+cd ../client
+npm start
+```
+Note: 
+Replace `your-username`, `your-repo-name`, `your-mongodb-connection-string` with the actual values for your project.
